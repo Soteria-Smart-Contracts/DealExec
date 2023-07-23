@@ -15,24 +15,29 @@ body, h1, h2, h3, p, ul, li {
     color: #fff;
     padding: 10px;
   }
-  
+
   nav ul {
-    list-style: none; /* Remove default bullet points */
-    display: flex; /* Use Flexbox to create a horizontal layout */
-    justify-content: center; /* Center the navbar items horizontally */
+    list-style: none;
+    display: flex;
+    justify-content: center;
   }
-  
+
   nav li {
     margin-right: 20px;
   }
-  
+
   nav li:last-child {
-    margin-right: 0; /* Remove the right margin from the last item */
+    margin-right: 0;
   }
-  
+
   nav a {
     color: #fff;
     text-decoration: none;
+  }
+
+  /* Navbar hover effect */
+  nav li:hover {
+    background-color: #555;
   }
   
   /* Header styles */
