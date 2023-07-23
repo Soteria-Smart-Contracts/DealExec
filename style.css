@@ -16,10 +16,23 @@ body, h1, h2, h3, p, ul, li {
     padding: 10px;
   }
   
+  nav ul {
+    list-style: none; /* Remove default bullet points */
+    display: flex; /* Use Flexbox to create a horizontal layout */
+    justify-content: center; /* Center the navbar items horizontally */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0; /* Remove the right margin from the last item */
+  }
+  
   nav a {
     color: #fff;
     text-decoration: none;
-    margin-right: 20px;
   }
   
   /* Header styles */
@@ -92,14 +105,12 @@ body, h1, h2, h3, p, ul, li {
     margin-bottom: 10px;
   }
   
-  /* Add additional styles as needed */
-  
   /* Responsive styles */
   @media screen and (max-width: 768px) {
     header h1 {
       font-size: 24px;
     }
-    
+  
     main h2 {
       font-size: 20px;
     }
