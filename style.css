@@ -1,0 +1,107 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Main Content styles */
+  main {
+    padding: 20px;
+  }
+  
+  main section {
+    margin-bottom: 40px;
+  }
+  
+  main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  main ul {
+    list-style: disc;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  main ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section styles */
+  section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add additional styles as needed */
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+    
+    main h2 {
+      font-size: 20px;
+    }
+  }
+  
