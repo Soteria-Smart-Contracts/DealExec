@@ -123,5 +123,38 @@ body, h1, h2, h3, p, ul, li {
     main h2 {
       font-size: 20px;
     }
+  
+    nav ul {
+      flex-direction: column; /* Stack the navbar items vertically for mobile */
+      align-items: center; /* Center the navbar items vertically */
+    }
+  
+    nav li {
+      margin-right: 0; /* Remove the right margin from the navbar items */
+      margin-bottom: 10px; /* Add margin at the bottom to separate items */
+    }
+  
+    nav li:last-child {
+      margin-bottom: 0; /* Remove the margin at the bottom from the last item */
+    }
+  
+    nav a {
+      padding: 15px 20px; /* Increase padding for better touch target on mobile */
+    }
+  
+    /* Increase text size for mobile */
+    main h2 {
+      font-size: 24px;
+    }
+  
+    main ul li {
+      font-size: 16px;
+    }
+  
+    /* Increase button size for mobile */
+    section a {
+      padding: 15px 25px;
+      font-size: 18px;
+    }
   }
   
